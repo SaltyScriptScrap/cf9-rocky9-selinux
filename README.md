@@ -17,4 +17,8 @@ Use on a fresh installed OS is recommended.
 
 <li>wait until the script execution is done, then test your installation:
 <pre>systemctl status coldfusion_9</pre></li>
+
+<li>Open your browser to continue to the configuration:
+<pre>http://127.0.0.1/CFIDE/administrator/index.cfm</pre></li>
+
 </ol>
