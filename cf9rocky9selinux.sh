@@ -2,7 +2,7 @@
 dnf -y install httpd libnsl httpd-devel mod_ssl gcc redhat-rpm-config chkconfig procps nano tar
 curl -O http://download.macromedia.com/pub/coldfusion/cf9_installer/ColdFusion_9_WWEJ_linux64.bin
 chmod 755 ColdFusion_9_WWEJ_linux64.bin
-curl -O https://rpmfind.net/linux/centos/7.9.2009/os/x86_64/Packages/compat-libstdc++-33-3.2.3-72.el7.i686.rpm
+curl -O https://web.archive.org/web/20230123021959/https://rpmfind.net/linux/centos/7.9.2009/os/x86_64/Packages/compat-libstdc++-33-3.2.3-72.el7.i686.rpm
 dnf -y install compat-libstdc++-33-3.2.3-72.el7.i686.rpm
 systemctl enable httpd
 ln -s /usr/bin/apxs /usr/sbin/apxs
